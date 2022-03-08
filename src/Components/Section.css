@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Jost:wght@300&family=Poppins:ital,wght@1,100&family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,300&display=swap');
+
+.section-1{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(to right bottom,rgba(255,80,10,0.349),rgba(17,17,17,0.315    ));
+    background-image: url("./image/pizza-1.jpeg");
+    background-size:cover;
+    background-position:center;
+    font-family: "poppins",sans-serif;
+    overflow: hidden;   
+}
+
+.section-container{
+    display:flex;
+    justify-content: space-between;
+    margin:7rem 1rem;
+}
+
+.text{
+    width:600px;
+}
+
+.text h1{
+    color:white;
+    text-transform: uppercase;
+    font-size:40px;
+    text-shadow:3px 0px 5px  #fff;
+    letter-spacing:2px;
+}
+.text h4{
+color:white;
+}
+
+.text span{
+    border-top:2px solid #fff;
+ color:rgb(255,51,0);
+}
+.text button{
+    padding:5px 5px;
+    background:none;
+    border:1px solid #fff;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight:bolder;
+    cursor:pointer;
+    margin-top:1rem;
+    margin-right:1rem;
+}
+
+.text button:hover{
+    background-color: #fff;
+    color:#000;
+    transition: 1s ease;
+    transform: scale(120%);
+}
+
+
+
+.black-box{
+    width:300px;
+    height:400px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid #fff;
+}
+
+.black-box p{
+    color:#fff;
+    padding:20px;
+    line-height:23px;
+    font-size:15px;
+
+}
+
+.black-box button{
+    display:flex;
+    align-items: center;
+    background-color: #fff;
+    padding:10px 40px;
+    border:none;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+.black-box .arrowforward{
+font-size:15px;
+margin-left:5px;
+
+}

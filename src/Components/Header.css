@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Jost:wght@300&family=Poppins:wght@800&family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap');
+    
+.header{
+    position:absolute;
+    width:100%;
+    font-family:"popins",sans-serif;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem;
+}
+
+.logo h1{
+    color:white;
+    user-select: none;
+}
+
+.number{
+
+    display:flex;
+    align-items:center;
+    
+
+}
+
+.number span{
+    display:block;
+    width:100px;
+    height:2px;
+    background-color:white;
+    margin-right:2px;
+
+}
+.number p {
+    color:white;
+}
+.right{
+    color:white;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+.shopingCart{
+    font-size:25px;
+    font-weight:bold;
+    margin-right:1rem;
+}
+
+.menu-icon{
+    font-size:25px;
+    font-weight:bold;
+}
+.slider{
+    width:25%;
+    height:100vh;
+    position:fixed;
+    top:0;
+    right:0; 
+    background-color: black;
+    right:-100%;
+    transition:1s ease;  
+
+}
+.slider.active{
+    right:0;
+    transition:1s ease;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+text-decoration: none;
+display:flex;
+justify-content:center;
+margin-top:1rem;
+height:100px;
+color:white;
+align-items:center;
+font-size:20px;
+}
